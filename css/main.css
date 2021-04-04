@@ -515,60 +515,88 @@ Menu
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
   .section-center {
-    width: 100vw;
+    min-width: 90vw;
     max-width: 250px;
     display: -ms-grid;
     display: grid;
     gap: 0.1rem 0.2rem;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
+    justify-items: center;
     margin-left: 0;
   }
+
+  body {
+    margin: 0;
+  }
+
+  .menu-item {
+    margin-bottom: 0;
+    justify-items: center;
+  }
+
   .photo {
     max-width: 200px;
+    margin-bottom: 0;
     height: 80px;
   }
+
+  .item-info {
+    margin-top: 0;
+  }
+
   .item-text {
     font-size: 0.6rem;
+    margin-bottom: 0;
+    padding: 0;
   }
+
   h1 {
     margin-left: 10px;
   }
+
   h4 {
     font-size: 0.7rem;
     margin-left: 0;
+    margin-top: 0;
   }
+
   .nav-item {
     font-size: 1rem;
   }
+
   .filter-btn {
-    font-size: 0.3rem;
+    font-size: 0.4rem;
   }
+
   .menu-item {
     -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
+    -ms-flex-pack: left;
+    justify-content: left;
   }
+
   button {
     font-size: 2rem;
   }
+
   h2 {
     font-size: 2rem;
   }
+
   p {
     font-size: 1rem;
   }
+
   .banner {
     padding: 10px !important;
     margin: 10px;
   }
+
   .bar {
     margin-top: 40px;
     text-align: center;
     font-family: var(--ff-secondary);
     color: var(--clr-gold);
   }
+
   .ent {
     margin-top: 70px;
     color: var(--clr-gold);
@@ -576,6 +604,7 @@ Menu
     text-align: center;
     font-family: var(--ff-secondary);
   }
+
   .liveBand {
     padding-left: 50px;
     margin-top: 50px;
@@ -584,27 +613,33 @@ Menu
     text-align: center;
     font-family: var(--ff-secondary);
   }
+
   .hiddenBar {
     font-size: 28px;
     visibility: visible;
     font-size: 1rem;
   }
+
   .hiddenEnt {
     font-size: 28px;
     font-size: 1rem;
     visibility: visible;
   }
+
   .hiddenBand {
     font-size: 28px;
     visibility: visible;
     font-size: 1rem;
   }
+
   .barImg {
     border-radius: var(--radius);
   }
+
   .pool {
     border-radius: var(--radius);
   }
+
   .band {
     border-radius: var(--radius);
   }

@@ -515,19 +515,35 @@ Menu
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
   .section-center {
-    width: 75vw;
-    max-width: 1500px;
+    width: 100vw;
+    max-width: 250px;
     display: -ms-grid;
     display: grid;
-    gap: 3rem 2rem;
-    justify-items: center;
+    gap: 0.1rem 0.2rem;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin-left: 0;
+  }
+  .photo {
+    max-width: 200px;
+    height: 80px;
+  }
+  .item-text {
+    font-size: 0.6rem;
+  }
+  h1 {
+    margin-left: 10px;
+  }
+  h4 {
+    font-size: 0.7rem;
     margin-left: 0;
   }
   .nav-item {
     font-size: 1rem;
   }
   .filter-btn {
-    font-size: 0.8rem;
+    font-size: 0.3rem;
   }
   .menu-item {
     -webkit-box-pack: left;
